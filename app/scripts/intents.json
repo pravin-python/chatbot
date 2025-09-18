@@ -1,0 +1,113 @@
+{
+  "product_ingredients": {
+    "keywords": [
+      "ingredients", "contents", "what is inside", "composition", "made of",
+      "ingredients information", "product mai kya hai", "andar kya hai",
+      "ingredients kya hai", "product composition", "sastava", "घटक",
+      "مواد", "સામગ્રી", "উপাদান"
+    ],
+    "confidence_threshold": 0.65
+  },
+
+  "product_nutrition": {
+    "keywords": [
+      "nutritional value", "nutrition facts", "calories", "vitamins", "minerals",
+      "nutrition information", "पोषण मूल्य", "营养价值", "قيمة غذائية",
+      "પોષણ મૂલ્ય", "পুষ্টির মান", "nutrition kya hai", "kitni calorie"
+    ],
+    "confidence_threshold": 0.65
+  },
+
+  "product_harmful_effects": {
+    "keywords": [
+      "harmful effects", "side effects", "bad for health", "dangerous", "toxic",
+      "nuksan", "hani karak", "नुकसान", "हानिकारक", "harmful hai kya",
+      "خطير", "નુકસાન", "ক্ষতিকর", "galat hai kya"
+    ],
+    "confidence_threshold": 0.60
+  },
+
+  "product_suitability": {
+    "keywords": [
+      "suitable for me", "right for me", "can I use", "should I take",
+      "mere liye sahi hai", "mujhe lena chahiye", "उपयुक्त है",
+      "مناسب لي", "મારા માટે યોગ્ય", "আমার জন্য উপযুক্ত", "mere liye theek hai"
+    ],
+    "confidence_threshold": 0.60
+  },
+
+  "barcode_information": {
+    "keywords": [
+      "barcode", "qr code", "product code", "item number", "scan code", "Show me about this.","મને આના વિશે બતાવો","আমাকে এটা দেখাও।",
+      "यह मुझे दिखाओ।", "أرني هذا.", "scan karo", 
+      "barcode kya hai", "code information", "बारकोड", "رمز شريطي",
+      "બારકોડ", "বারকোড", "barcode dikha", "code batao"
+    ],
+    "confidence_threshold": 0.70
+  },
+
+  "personal_name": {
+    "keywords": [
+      "my name", "what is my name", "who am I", "naam kya hai",
+      "mere naam kya hai", "मेरा नाम", "اسمي", "મારું નામ", "আমার নাম",
+      "main kaun hu", "naam batao"
+    ],
+    "confidence_threshold": 0.65
+  },
+
+  "personal_age": {
+    "keywords": [
+      "my age", "how old", "meri age", "umra kya hai", "kitne saal",
+      "मेरी उम्र", "عمري", "મારી ઉંમર", "আমার বয়স", "age batao"
+    ],
+    "confidence_threshold": 0.65
+  },
+
+  "personal_height": {
+    "keywords": [
+      "my height", "kitna lamba", "mere height", "lamba kaisa",
+      "मेरी ऊंचाई", "طولي", "મારી ઊંચાઈ", "আমার উচ্চতা", "height kya hai"
+    ],
+    "confidence_threshold": 0.65
+  },
+
+  "greeting": {
+    "keywords": [
+      "hello", "hi", "hey", "greetings", "good morning", "good evening", "jay shri krishna", "ram ram",
+      "namaste", "sat sri akal", "assalam alaikum", "tum kaun ho",
+      "हैलो", "مرحبا", "હેલો", "হ্যালো", "kaise ho", "kya haal"
+    ],
+    "confidence_threshold": 0.70
+  },
+
+  "how_are_you": {
+    "keywords": [
+      "how are you", "kaise ho", "kya haal hai", "how do you feel", "તમે કેમ છો?",
+      "तुम कैसे हो", "كيف حالك", "તમે કેવા છો", "তুমি কেমন আছ",
+      "kaisi tabiyat", "sab theek"
+    ],
+    "confidence_threshold": 0.65
+  },
+
+  "daily_wellness": {
+    "keywords": [
+      "how is day", "aaj ka din kaisa", "today feeling", "din kaisa hai",
+      "आज कैसा दिन", "كيف اليوم", "આજ કેવો દિવસ", "আজ কেমন দিন",
+      "aaj kya haal", "din acha hai"
+    ],
+    "confidence_threshold": 0.60
+  },
+
+  "product_alternatives": {
+    "keywords": [
+      "alternative products", "similar products", "other options", "replacement",
+      "aur kya options", "दूसरे विकल्प", "بدائل", "અન્ય વિકલ્પો",
+      "অন্য বিকল্প", "koi aur product", "similar kya hai"
+    ],
+    "confidence_threshold": 0.65
+  },
+  "unknown": {
+    "keywords": [],
+    "confidence_threshold": 0.3
+  }
+}
