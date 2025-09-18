@@ -9,7 +9,7 @@ class AsyncChatbotWrapper:
     def __init__(self, intents_file: str = "chatbot/models/intents.json"):
         self.chatbot = AdvancedMultilingualChatbot(intents_file)
         self.nlp_processor = NLPProcessor()
-        self.executor = ThreadPoolExecutor(max_workers=4)
+        self.executor = ThreadPoolExecutor(max_workers=30)
         self.session = None
     
     async def initialize(self):

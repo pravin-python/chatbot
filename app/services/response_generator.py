@@ -12,13 +12,6 @@ class ResponseGenerator:
         self.chatbot = AsyncChatbotWrapper(intents_file="app/scripts/intents.json")
         asyncio.create_task(self.chatbot.initialize())
 
-    @classmethod
-    async def create(cls):
-        """Async factory method for proper initialization"""
-        self = cls()
-        await self.chatbot.initialize()
-        return self
-
     async def generate_response(self, message: str, user_id: int, product_id: int, chat_history: list = None):
         try:
             analysis = await self.chatbot.analyze_conversation_async(message)
